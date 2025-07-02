@@ -4,8 +4,8 @@ import { HomeIcon, File, Mail, Contact } from "lucide-react";
 
 export const DATA = {
   name: "Karan Mishra",
-  initials: "DV",
-  url: "https://dillion.io",
+  initials: "KM",
+  url: "https://karanmishra.vercel.app/",
   location: "New Delhi",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
