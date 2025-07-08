@@ -33,6 +33,8 @@ export const DATA = {
     "Docker",
     "GitHub",
     "Git",
+    "Payment gateway integration",
+    "SaaS",
     "Redis",
     "H2 database",
     "postgresql",
