@@ -7,7 +7,7 @@ export const DATA = {
   initials: "KM",
   url: "https://karanmishra.vercel.app/",
   location: "New Delhi",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  locationLink: "https://g.co/kgs/b9ZgYfj",
   description:
     "Java developer at Mindstein Software Information Technology & Services | Pursuing MCA at Glocal University | Aspiring software engineer (SDE) | web development | Competitive programer | 300+ on leetcode.",
   summary:
@@ -116,7 +116,7 @@ export const DATA = {
       },
       Resume: {
         name: "Resume",
-        url: "https://drive.google.com/file/d/1zgB4ylflJwF-sFfU_6BoIv1fJWeipQl6/view",
+        url: "https://drive.google.com/file/d/1AWneG0etHtC0aNJWfemgfJwGzBL2RHEw/view",
         icon: Icons.googleDrive,
         navbar: true,
       },
