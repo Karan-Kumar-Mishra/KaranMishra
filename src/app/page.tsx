@@ -1,4 +1,4 @@
-"use client"
+
 import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
@@ -10,29 +10,18 @@ import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
 import SplashCursor from "@/blocks/Animations/SplashCursor/SplashCursor";
-import { useEffect } from "react";
-import Lenis from 'lenis'
 import Script from 'next/script'
-
+import LenisComponent from "@/components/LenisComponent";
 
 
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
-  useEffect(() => {
-    const lenis = new Lenis({
-      autoRaf: true,
-    });
 
-    // Listen for the scroll event and log the event data
-    lenis.on('scroll', (e) => {
-      console.log(e);
-    });
-    return () => lenis.destroy();
-  }, [])
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10">
       <SplashCursor />
+      <LenisComponent/>
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
