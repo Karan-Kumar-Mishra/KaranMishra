@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://unpkg.com/lenis@1.3.8/dist/lenis.css');
 
 @layer base {
     :root {

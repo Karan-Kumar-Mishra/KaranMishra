@@ -12,6 +12,7 @@ import Markdown from "react-markdown";
 import SplashCursor from "@/blocks/Animations/SplashCursor/SplashCursor";
 import { useEffect } from "react";
 import Lenis from 'lenis'
+import Script from 'next/script'
 
 
 
@@ -27,6 +28,7 @@ export default function Page() {
     lenis.on('scroll', (e) => {
       console.log(e);
     });
+    return () => lenis.destroy();
   }, [])
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10">
@@ -240,8 +242,7 @@ export default function Page() {
           </BlurFade>
         </div>
       </section>
-      <script src="https://unpkg.com/lenis@1.3.8/dist/lenis.min.js"></script>
-      <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.8/dist/lenis.css"></link>
-    </main>
+      <Script src="https://unpkg.com/lenis@1.3.8/dist/lenis.min.js" strategy="afterInteractive" />
+   </main>
   );
 }
