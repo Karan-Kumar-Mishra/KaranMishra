@@ -1,3 +1,4 @@
+"use client"
 import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
@@ -8,13 +9,28 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
+import SplashCursor from "@/blocks/Animations/SplashCursor/SplashCursor";
+import { useEffect } from "react";
+import Lenis from 'lenis'
+
 
 
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
+  useEffect(() => {
+    const lenis = new Lenis({
+      autoRaf: true,
+    });
+
+    // Listen for the scroll event and log the event data
+    lenis.on('scroll', (e) => {
+      console.log(e);
+    });
+  }, [])
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10">
+      <SplashCursor />
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
@@ -200,9 +216,9 @@ export default function Page() {
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
             <div className="space-y-3">
-              <Link  href={"/contact"} className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm cursor-pointer"
-               
-             >
+              <Link href={"/contact"} className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm cursor-pointer"
+
+              >
 
                 Contact
               </Link>
@@ -224,6 +240,8 @@ export default function Page() {
           </BlurFade>
         </div>
       </section>
+      <script src="https://unpkg.com/lenis@1.3.8/dist/lenis.min.js"></script>
+      <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.8/dist/lenis.css"></link>
     </main>
   );
 }
