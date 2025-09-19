@@ -1,4 +1,3 @@
-
 import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
@@ -12,6 +11,7 @@ import Markdown from "react-markdown";
 import SplashCursor from "@/blocks/Animations/SplashCursor/SplashCursor";
 import Script from 'next/script'
 import LenisComponent from "@/components/LenisComponent";
+import { Spotlight } from "@/components/ui/spotlight";
 
 
 const BLUR_FADE_DELAY = 0.04;
@@ -19,9 +19,14 @@ const BLUR_FADE_DELAY = 0.04;
 export default function Page() {
 
   return (
-    <main className="flex flex-col min-h-[100dvh] space-y-10 w-full">
+    <main className=" flex flex-col min-h-[90dvh] space-y-10 w-full z-10">
+
+      <Spotlight
+        className="-top-20 left-0 md:-top-20 md:left-20 fixed"
+        fill="white"
+      />
       <SplashCursor />
-      <LenisComponent/>
+      <LenisComponent />
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-1">
           <div className="gap-2 flex justify-between">
@@ -232,6 +237,6 @@ export default function Page() {
         </div>
       </section>
       <Script src="https://unpkg.com/lenis@1.3.8/dist/lenis.min.js" strategy="afterInteractive" />
-   </main>
+    </main>
   );
 }
