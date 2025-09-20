@@ -63,7 +63,10 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-
+        <Spotlight
+          className="-top-20 left-0 md:-top-20 md:left-20 fixed"
+          fill="white"
+        />
         <ThemeProvider attribute="class" defaultTheme="dark">
           <TooltipProvider delayDuration={0}>
             {children}

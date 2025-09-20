@@ -19,13 +19,10 @@ const BLUR_FADE_DELAY = 0.04;
 export default function Page() {
 
   return (
-    <main className=" flex flex-col min-h-[90dvh] space-y-10 w-full z-10">
+    <main className=" flex flex-col min-h-[90dvh] space-y-10 w-full z-[50]">
 
-      <Spotlight
-        className="-top-20 left-0 md:-top-20 md:left-20 fixed"
-        fill="white"
-      />
-      <SplashCursor />
+     
+      {/* <SplashCursor /> */}
       <LenisComponent />
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-1">

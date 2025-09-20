@@ -121,7 +121,7 @@ export const DATA = {
       },
       Resume: {
         name: "Resume",
-        url: "https://drive.google.com/file/d/1AWneG0etHtC0aNJWfemgfJwGzBL2RHEw/view",
+        url: "https://drive.google.com/file/d/1CqXUZmtVnBWbRNaHEhn4qcbDkEfTSV2o/view?usp=sharing",
         icon: Icons.googleDrive,
         navbar: true,
       },
@@ -168,6 +168,7 @@ export const DATA = {
 
   ],
   projects: [
+    
     {
       title: "Hoststream",
       href: "https://docode-com.onrender.com/",
@@ -211,6 +212,46 @@ export const DATA = {
           href: "https://app.eraser.io/workspace/31q7M7OHoxmqHpeXrCHO",
           icon: <Icons.globe className="size-3" />,
         },
+      ],
+      image: "",
+      video:
+        "https://dms.licdn.com/playlist/vid/v2/D5605AQHeuhsbmxbnAQ/mp4-640p-30fp-crf28/B56ZfoBzTJGQB0-/0/1751944819523?e=2147483647&v=beta&t=ouDdju0FTcX8bwYMcgMkyk022mTUDcl0C5PxEwIt4O0",
+    },
+     {
+      title: "Skybox",
+      href: "https://docode-com.onrender.com/",
+      dates: "Jan 2025 - ongoing",
+      active: true,
+      description:
+        "Hoststream! 🎉 A cutting-edge cloud platform built with a microservices architecture and biometric authentication to deliver a scalable, secure, and visually stunning experience.",
+      technologies: [
+        "Docker",
+        "Mongodb",
+        "Express js",
+        "Javascript",
+        "Nodejs",
+        "React",
+        "MUI",
+        "okta auth js",
+        "Razorpay"
+      ],
+      links: [
+     
+        {
+          type: "Source",
+          href: "https://github.com/Karan-Kumar-Mishra/Skybox",
+          icon: <Icons.github className="size-3" />,
+        },
+        // {
+        //   type: "Video",
+        //   href: "https://www.linkedin.com/posts/karan-mishra-892970247_linkedin-webdevelopment-microservices-activity-7348189202607456256-Ybic?utm_source=share&utm_medium=member_android&rcm=ACoAAD0wV-4BEpn8pUjq9KIZVz7Q-9jy9Zwbz-8",
+        //   icon: <Icons.youtube className="size-3" />,
+        // },
+        // {
+        //   type: "System design",
+        //   href: "https://app.eraser.io/workspace/31q7M7OHoxmqHpeXrCHO",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
       ],
       image: "",
       video:
