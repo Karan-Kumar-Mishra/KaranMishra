@@ -8,10 +8,9 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
-import SplashCursor from "@/blocks/Animations/SplashCursor/SplashCursor";
 import Script from 'next/script'
 import LenisComponent from "@/components/LenisComponent";
-import { Spotlight } from "@/components/ui/spotlight";
+
 
 
 const BLUR_FADE_DELAY = 0.04;

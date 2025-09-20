@@ -223,7 +223,7 @@ export const DATA = {
       dates: "Jan 2025 - ongoing",
       active: true,
       description:
-        "Hoststream! 🎉 A cutting-edge cloud platform built with a microservices architecture and biometric authentication to deliver a scalable, secure, and visually stunning experience.",
+        "Skybox! 🎉 A cutting-edge cloud platform built with a microservices architecture and biometric authentication to deliver a scalable, secure, and visually stunning experience.",
       technologies: [
         "Docker",
         "Mongodb",
@@ -255,7 +255,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://dms.licdn.com/playlist/vid/v2/D5605AQHeuhsbmxbnAQ/mp4-640p-30fp-crf28/B56ZfoBzTJGQB0-/0/1751944819523?e=2147483647&v=beta&t=ouDdju0FTcX8bwYMcgMkyk022mTUDcl0C5PxEwIt4O0",
+        "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2I3MmRpbXdrNDloa2c4d3k0bmQ4ODVkcXJsM2h2bHN4enBwbjkxbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7lNqHCbmskD4sFLRK9/giphy.gif",
     },
     {
       title: "Docode",
