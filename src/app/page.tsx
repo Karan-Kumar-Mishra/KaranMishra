@@ -10,7 +10,7 @@ import Link from "next/link";
 import Markdown from "react-markdown";
 import Script from 'next/script'
 import LenisComponent from "@/components/LenisComponent";
-
+import SplashCursor from "@/blocks/Animations/SplashCursor/SplashCursor";
 
 
 const BLUR_FADE_DELAY = 0.04;
@@ -21,7 +21,7 @@ export default function Page() {
     <main className=" flex flex-col min-h-[90dvh] space-y-10 w-full z-[50]">
 
      
-      {/* <SplashCursor /> */}
+      <SplashCursor />
       <LenisComponent />
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-1">
