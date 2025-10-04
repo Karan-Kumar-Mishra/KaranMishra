@@ -223,7 +223,7 @@ export const DATA = {
       dates: "Jan 2025 - ongoing",
       active: true,
       description:
-        "Skybox! 🎉 A cutting-edge cloud platform built with a microservices architecture and biometric authentication to deliver a scalable, secure, and visually stunning experience.",
+        "Skybox! 🎉 A cutting-edge  cloud-based platform built with a microservices architecture and biometric authentication to deliver a scalable, secure, and visually stunning experience.",
       technologies: [
         "Docker",
         "Mongodb",
@@ -242,20 +242,20 @@ export const DATA = {
           href: "https://github.com/Karan-Kumar-Mishra/Skybox",
           icon: <Icons.github className="size-3" />,
         },
-        // {
-        //   type: "Video",
-        //   href: "https://www.linkedin.com/posts/karan-mishra-892970247_linkedin-webdevelopment-microservices-activity-7348189202607456256-Ybic?utm_source=share&utm_medium=member_android&rcm=ACoAAD0wV-4BEpn8pUjq9KIZVz7Q-9jy9Zwbz-8",
-        //   icon: <Icons.youtube className="size-3" />,
-        // },
-        // {
-        //   type: "System design",
-        //   href: "https://app.eraser.io/workspace/31q7M7OHoxmqHpeXrCHO",
-        //   icon: <Icons.globe className="size-3" />,
-        // },
+        {
+          type: "Video",
+          href: "https://www.linkedin.com/posts/karan-mishra-892970247_cloudcomputing-fullstackdevelopment-reactjs-activity-7380272861069938688-tduu",
+          icon: <Icons.youtube className="size-3" />,
+        },
+        {
+          type: "System design",
+          href: "https://excalidraw.com/#json=cpXwwLJsj7uytVZ77enNn,iddy2NkJLbeJKbhcYSA6Nw",
+          icon: <Icons.globe className="size-3" />,
+        },
       ],
       image: "",
       video:
-        "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2I3MmRpbXdrNDloa2c4d3k0bmQ4ODVkcXJsM2h2bHN4enBwbjkxbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7lNqHCbmskD4sFLRK9/giphy.gif",
+        "https://dms.licdn.com/playlist/vid/v2/D5605AQFl8eK9FcGwEg/mp4-720p-30fp-crf28/B56Zmv.7KJIYBk-/0/1759594162442?e=2147483647&v=beta&t=pCJ5iqM4KzgR5_xWPaaOP2NGm3t2FuECnHlNT5waLgM",
     },
     {
       title: "Docode",
