@@ -9,9 +9,9 @@ export const DATA = {
   location: "New Delhi",
   locationLink: "https://g.co/kgs/b9ZgYfj",
   description:
-    "Java developer at Mindstein Software Information Technology & Services | Pursuing MCA at Glocal University | Aspiring software engineer (SDE) | web development | Competitive programer | 350+ on leetcode.",
+    "Jr Software developer at Credin | MCA | web development | Competitive programer | 400+ on leetcode.",
   summary:
-    "Aspiring Software Engineer with a strong foundation in programming and web development. Proficient in multiple technologies including C, C++, Java, Python, and JavaScript, as well as frameworks like Node.js, Express.js, and databases such as MongoDB and SQL. Passionate about building innovative projects, from real-time chat applications to AI-driven tools and Chrome extensions, platform's etc",
+    "Software Engineer with a strong foundation in programming and web development. Proficient in multiple technologies including C, C++, Java, Python, and JavaScript, as well as frameworks like Node.js, Express.js, and databases such as MongoDB and SQL. Passionate about building innovative projects, from real-time chat applications to AI-driven tools and Chrome extensions, platform's etc",
   avatarUrl: "/karan.png",
   skills: [
     
@@ -137,11 +137,11 @@ export const DATA = {
   work: [
     {
       company: "Credin",
-      href: "https://atomic.finance",
+      href: "https://www.credin.in/",
       badges: [],
       location: "Noida",
       title: "Jr Software Developer",
-      logoUrl: "https://media.licdn.com/dms/image/v2/C510BAQE_hNce4zlqJg/company-logo_200_200/company-logo_200_200/0/1630634396812?e=1767225600&v=beta&t=RyUKLnKlYFxs9muDulKiibwTfwwnPhXfCYYKvL4gOEo",
+      logoUrl: "https://www.credin.in/Credin%20Registerd%20logo-01.jpg",
       start: "Dec 2025",
       end: "Present",
       description:
@@ -149,7 +149,7 @@ export const DATA = {
     },
     {
       company: "Mindstein Software Information Technology & Services",
-      href: "https://atomic.finance",
+      href: "https://www.mindstein.in/",
       badges: [],
       location: "Remote",
       title: "Java Developer Intern",
@@ -165,7 +165,7 @@ export const DATA = {
       school: "Glocal University",
       href: "https://glocaluniversity.edu.in/",
       degree: "Master of computer application (MCA)",
-      logoUrl: "https://glocaluniversity.edu.in/wp-content/uploads/2024/02/Logo-1-2048x690.png",
+      logoUrl: "https://www.glocaluniversity.edu.in/new/assets/images/logo/logo.png",
       start: "2023",
       end: "2025",
     },
