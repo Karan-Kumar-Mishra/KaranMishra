@@ -9,7 +9,7 @@ export const DATA = {
   location: "New Delhi",
   locationLink: "https://g.co/kgs/b9ZgYfj",
   description:
-    "Jr Software developer at Credin | MCA | web development | Competitive programer | 400+ on leetcode.",
+    "Jr Software developer at Credin | MCA | web development | Competitive programer |",
   summary:
     "Software Engineer with a strong foundation in programming and web development. Proficient in multiple technologies including C, C++, Java, Python, and JavaScript, as well as frameworks like Node.js, Express.js, and databases such as MongoDB and SQL. Passionate about building innovative projects, from real-time chat applications to AI-driven tools and Chrome extensions, platform's etc",
   avatarUrl: "/karan.png",
